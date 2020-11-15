@@ -3,52 +3,54 @@
 </p>
 
 ## The Challenge
+
 1. Read about the challenge and register at [#100DaysOfCloud.com](https://100DaysOfCloud.com)
 2. Join the [Discord Channel](https://discord.gg/c6Db8nY)
 3. Copy the [100DaysOfCloud/100DaysOfCloud Journey Template](https://github.com/100DaysOfCloud/100DaysOfCloud/generate)
 4. Use the [Micro](Templates/000-DAY-ARTICLE-MICRO-TEMPLATE.md), [Short](Templates/001-DAY-ARTICLE-SHORT-TEMPLATE.md) or [Long](Templates/002-DAY-ARTICLE-LONG-TEMPLATE.md) Day Journey Template and document your day-to-day progress.
 5. Update your main README to link back to your Day Journey article
-4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
+6. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
 ## How to use this template:
+
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Sam's Cloud Journey
 
-[✍️ Introduce yourself]
+Hello! I'm Sam, a career-switcher who has trained as a fullstack developer and is now moving into Cloud and DevOps.
 
-[✍️ Tell us why you started this challenge]
+I started the challenge because I wanted to document my learning journey.
 
-[✍️ Tell us where you want to be at the end of the challenge]
+At the end of the challenge I'd like to be AWS Certified, and to have built some fun projects in the Cloud.
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- [@\_notwaving](https://twitter.com/_notwaving)
+- [LinkedIn](https://www.linkedin.com/in/samantha-burke)
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [](Journey/003/Readme.md)
-- [ ] ☁️ 4 > [](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [](Journey/005/Readme.md)
-- [ ] ☁️ 6 > [](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [x] ☁️ 1 > [AWS CCP - Day 1](Journey/001/Readme.md)
+- [x] ☁️ 2 > [AWS CCP - Day 2](Journey/002/Readme.md)
+- [x] ☁️ 3 > [AWS CCP - Day 3](Journey/003/Readme.md)
+- [x] ☁️ 4 > [AWS CCP - Day 4](Journey/004/Readme.md)
+- [x] ☁️ 5 > [AWS CCP - Day 5](Journey/005/Readme.md)
+- [x] ☁️ 6 > [AWS CCP - Revision](Journey/006/Readme.md)
+- [x] ☁️ 7 > [AWS CCP - Day 6](Journey/007/Readme.md)
+- [x] ☁️ 8 > [AWS CCP - Day 7](Journey/008/Readme.md)
+- [x] ☁️ 9 > [AWS CCP - Day 8](Journey/009/Readme.md)
+- [x] ☁️ 10 > [AWS CCP - Day 9](Journey/010/Readme.md)
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [](Journey/011/Readme.md)
-- [ ] ☁️ 12 > [](Journey/012/Readme.md)
-- [ ] ☁️ 13 > [](Journey/013/Readme.md)
-- [ ] ☁️ 14 > [](Journey/014/Readme.md)
-- [ ] ☁️ 15 > [](Journey/015/Readme.md)
-- [ ] ☁️ 16 > [](Journey/016/Readme.md)
-- [ ] ☁️ 17 > [](Journey/017/Readme.md)
-- [ ] ☁️ 18 > [](Journey/018/Readme.md)
-- [ ] ☁️ 19 > [](Journey/019/Readme.md)
+- [x] ☁️ 11 > [AWS CCP - Day 10](Journey/011/Readme.md)
+- [x] ☁️ 12 > [AWS CCP - Revision](Journey/012/Readme.md)
+- [x] ☁️ 13 > [AWS CCP - Revision](Journey/013/Readme.md)
+- [x] ☁️ 14 > [AWS CCP - White Papers](Journey/014/Readme.md)
+- [x] ☁️ 15 > [AWS CCP - White Papers](Journey/015/Readme.md)
+- [x] ☁️ 16 > [AWS CCP - White Papers](Journey/016/Readme.md)
+- [x] ☁️ 17 > [AWS CCP - White Papers](Journey/017/Readme.md)
+- [x] ☁️ 18 > [AWS CCP - Mock Exams](Journey/018/Readme.md)
+- [x] ☁️ 19 > [Introducing the Cloud Resume Challenge!](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
 
 ## Crossing the bridge
