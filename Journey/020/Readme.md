@@ -6,7 +6,8 @@
 
 - Retrospectively set up the #100DaysOfCloud GitHub repo
 - 81.54% on Tutorials Dojo timed mode - set 5. So close!
-- Worked on cloud resume
+- Installed and integrated Jekyll with GitHub pages to host my blog as part of the Cloud Resume Challenge requirements. Posted first entry too.
+- Continued creating HTML resume
 
 ## Social Proof
 
