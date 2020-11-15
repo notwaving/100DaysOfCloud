@@ -51,7 +51,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 17 > [AWS CCP - White Papers](Journey/017/Readme.md)
 - [x] ☁️ 18 > [AWS CCP - Mock Exams](Journey/018/Readme.md)
 - [x] ☁️ 19 > [Introducing the Cloud Resume Challenge!](Journey/019/Readme.md)
-- [ ] ☁️ 20 > [](Journey/020/Readme.md)
+- [x] ☁️ 20 > [Setting Up This Repo](Journey/020/Readme.md)
 
 ## Crossing the bridge
 
