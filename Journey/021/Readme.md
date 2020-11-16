@@ -1,52 +1,28 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This template removes the micro tutorial for a quicker post and removes images for a full template check out the 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+**From this morning's AWS webinar:**
+![AWS architecture](/Journey/021/aws-hotdog.png)
+
+# What's All This About 85% Then??
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+If you've been following along, you may have noticed the fact I'm reporting my AWS CCP mock exam scores. And they're not bad, right? You only need a score of 70% to pass the Certified Cloud Practitioner exam.
 
-## Prerequisite
+## Here's the thing:
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+The practice exam questions provided by AWS are much easier than the real exam. It costs around \$100 (plus tax) to take and I have very little practical experience anyway, so I need to pass on the first try. I found a great little community called [AWS Certifications](https://www.reddit.com/r/awscertifications), and from courses to exam providers it's been extremely useful in making well-informed choices on a limited budget. The Udemy course was a fantastic introduction to AWS (and took away the feeling of being overwhelmed), but it was reading the white papers and taking the 3rd party mock exams that made things really stick.
 
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+The advice given time and again is that when you _consistently_ score >= 85% on these mock exams, you are _guaranteed_ to pass the CCP. This week I'm aiming to get a run on all five, plus the final exam before going for it.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+- 95% on the retake of Set 1!
+- Attended a series of AWS webinars this morning, called **Developers, Let's Build**. The slide linked above was from a lecture featuring the SAM CLI, which I'm required to use as part of the Cloud Resume Challenge and it was great to see it in action. Glad to see that people are still checking whether things are hotdogs or not.
+- Finished functionality and about 95% of the design of my cloud resume, which is just as good, as I can't stop tinkering with it... Need to add more content, but putting it away until I've taken the CCP.
 
 ## Social Proof
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1328408739309826050?s=20)

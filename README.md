@@ -55,7 +55,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 ## Crossing the bridge
 
-- [ ] ☁️ 21 > [](Journey/021/Readme.md)
+- [x] ☁️ 21 > [What's All This About 85% Then?](Journey/021/Readme.md)
 - [ ] ☁️ 22 > [](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
