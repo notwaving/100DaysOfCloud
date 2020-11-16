@@ -23,6 +23,4 @@ The advice given time and again is that when you _consistently_ score >= 85% on 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
 [Twitter](https://twitter.com/_notwaving/status/1328408739309826050?s=20)
