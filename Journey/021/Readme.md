@@ -17,7 +17,9 @@ The advice given time and again is that when you _consistently_ score >= 85% on 
 
 ## Cloud Research
 
-- 95% on the retake of Set 1!
+- 95% on the retake of Set 1
+- 95% on the retake of Set 2!
+- 97% on review mode - Set 4
 - Attended a series of AWS webinars this morning, called **Developers, Let's Build**. The slide linked above was from a lecture featuring the SAM CLI, which I'm required to use as part of the Cloud Resume Challenge and it was great to see it in action. Glad to see that people are still checking whether things are hotdogs or not.
 - Finished functionality and about 95% of the design of my cloud resume, which is just as good, as I can't stop tinkering with it... Need to add more content, but putting it away until I've taken the CCP.
 
