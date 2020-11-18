@@ -57,7 +57,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 - [x] ☁️ 21 > [What's All This About 85% Then?](Journey/021/Readme.md)
 - [x] ☁️ 22 > [Woo Boy... (More Exam Prep Stuff)](Journey/022/Readme.md)
-- [ ] ☁️ 23 > [](Journey/023/Readme.md)
+- [ ] ☁️ 23 > [It's The Final Countdown!](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)

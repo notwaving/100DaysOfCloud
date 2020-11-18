@@ -12,6 +12,4 @@
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
 [Twitter](https://twitter.com/_notwaving/status/1328774533160062977?s=20)
