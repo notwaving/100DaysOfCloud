@@ -1,52 +1,30 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This template removes the micro tutorial for a quicker post and removes images for a full template check out the 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+![list of Simian Army projects](/Journey/025/simian-army.jpg)
+
+# Discover Chaos Engineering - A Talk :monkey:
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+WWCode Cloud hosted a talk by Jennifer Bergstrom on Chaos Engineering
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- It tests on your operating system while it's in PRODUCTION
 
-## Cloud Research
+## Notes
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+- Failure testing used to be a thought experiment; heavy on hypotheticals, light on actual testing
+- 2010: AWS invent Chaos Monkey. It randomly takes down servers. Created for Netflix.
+- 2014: Netflix creates the Chaos Engineer role. Chaos Engineers perform failure injection testing in the production system, during business hours
+- The Simian Army has expanded. e.g. Chaos Kong, Chaos Gorilla, Compliance Monkey, etc
+- Now, chaos engineering is a widely accepted form of testing. A lot of unicorns use it, but smaller companies do too.
+- Chaos engineering allows you to move from post-mortem failure analysis to pre-mortem failure experiments
+- It is a hands-on eduational tool
+- It can be used to enforce compliance in Production
+- Strict compliance without gatekeepers
+- Gremlin exists as Chaos as a Service (CaaS?). It is licenced (so it is a paid service), but it is also tried and tested
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1329804153191796737?s=20)
