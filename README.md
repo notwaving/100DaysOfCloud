@@ -60,7 +60,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 23 > [It's The Final Countdown!](Journey/023/Readme.md)
 - [x] ☁️ 24 > [:tada: I Am Now AWS Certified! :champagne:](Journey/024/Readme.md)
 - [x] ☁️ 25 > [Discover Chaos Engineering - A Talk :monkey:](Journey/025/Readme.md)
-- [ ] ☁️ 26 > [](Journey/026/Readme.md)
+- [x] ☁️ 26 > [It's The Weekend - Time For the Cloud Resume Challenge!](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
