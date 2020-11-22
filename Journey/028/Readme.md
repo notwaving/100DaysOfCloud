@@ -1,52 +1,81 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![A badge with "I heart S3" on it](/Journey/028/20201122_140627.jpg)
 
-# S3, CloudFront, Route 53 (Cloud Resume Challenge) 🌐
+# Amazon S3 Static Website - Cloud Resume Challenge 🌐
 
 ## Introduction
 
-Phase 1 - Create HTML Resume is now complete and sitting in a private GitHub repo. It's time for Phase 2 - Deploy HTML Resume To AWS.
+_Phase 1 - Create HTML Resume_ is now complete and sitting in a private GitHub repo. It's time for _Phase 2 - Deploy HTML Resume To AWS_.
 
-## Prerequisite
+## Prerequisites
 
 - IAM user account with admin permissions
-- Some familiarity with the AWS Management Console will stop things being too overwhelming but otherwise, we're following [a well-written guide](https://seanjziegler.com/how-to-build-a-free-static-resume-site-with-aws-s3-cloudfront-and-route-53/)
+- Some familiarity with the AWS Management Console will stop things being too overwhelming, but this setup is relatively easy to understand and configure
 
 ## Use Case
 
-- The Challenge requests that the resume should be deployed online as an Amazon S3 static website, with HTTPS, and a custom DNS.
+- S3 buckets can be used to host host static websites
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- I found this pretty straightforward using the AWS Management Console - you can easily drag and drop files and folders into your S3 bucket
+- The Console UI changes very frequently, so remember to take your time when following guides
 
-## Try yourself
+## Try it yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Here's how to add your website assets to S3 and make it accessible to the internet.
 
-### Step 1 — Summary of Step
+### Step 1 — Upload website files and folders to S3
 
-![Screenshot](https://via.placeholder.com/500x300)
+![Screenshot](/Journey/028/img-1.png)
 
-### Step 1 — Summary of Step
+![Screenshot](/Journey/028/img-2.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 2 — Set a bucket policy
 
-### Step 3 — Summary of Step
+![Screenshot](/Journey/028/img-3.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+Unchecking `Block public access` allows your S3 bucket to become public _if_ it has the right policy.
+
+![Screenshot](/Journey/028/img-4.png)
+![Screenshot](/Journey/028/img-5.png)
+![Screenshot](/Journey/028/img-6.png)
+
+Click `edit bucket` then `policy generator`
+
+![Screenshot](/Journey/028/img-7.png)
+
+Don't forget to add `/*` to the ARN
+
+Click `Add Statement`, then `Generate Policy`
+
+Copy and paste the JSON object that's just been generated into the Bucket policy editor (where you clicked 'policy generator' before).
+
+Hit save. Your bucket is now public!
+
+![Screenshot](/Journey/028/img-8.png)
+
+### Step 3 — Deploy as an S3 static website
+
+Click on the your bucket > `Properties` > `Static website hosting` > `Edit`
+
+![Screenshot](/Journey/028/img-9.png)
+
+N.B. the Index document must be named `index.html`
+
+Click `save`
+
+If you click the Bucket website endpoint, you should see it all working!
+
+**Remember to enable bucket versioning. It protects against unintended deletes, and you can easily roll back to a previous version of a file.**
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+The website is now live and hosted in an S3 bucket!
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next time, we will purchase a domain name in Route 53, create an SSL certificate (as we'll be serving the site over HTTPS), and a CloudFront distribution to enable HTTPS.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[Twitter](link)
+[Twitter](https://twitter.com/_notwaving/status/1330519514740645895?s=20)
