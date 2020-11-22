@@ -1,20 +1,20 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# S3, CloudFront, Route 53 (Cloud Resume Challenge) 🌐
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Phase 1 - Create HTML Resume is now complete and sitting in a private GitHub repo. It's time for Phase 2 - Deploy HTML Resume To AWS.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- IAM user account with admin permissions
+- Some familiarity with the AWS Management Console will stop things being too overwhelming but otherwise, we're following [a well-written guide](https://seanjziegler.com/how-to-build-a-free-static-resume-site-with-aws-s3-cloudfront-and-route-53/)
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- The Challenge requests that the resume should be deployed online as an Amazon S3 static website, with HTTPS, and a custom DNS.
 
 ## Cloud Research
 
@@ -49,4 +49,4 @@
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](link)
