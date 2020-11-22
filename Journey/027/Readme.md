@@ -1,4 +1,4 @@
-![A badge with "I heart S3" on it](/Journey/028/20201122_140627.jpg)
+![A badge with "I heart S3" on it](/Journey/027/20201122_140627.jpg)
 
 # Amazon S3 Static Website - Cloud Resume Challenge 🌐
 
@@ -26,23 +26,23 @@ Here's how to add your website assets to S3 and make it accessible to the intern
 
 ### Step 1 — Upload website files and folders to S3
 
-![Screenshot](/Journey/028/img-1.png)
+![Screenshot](/Journey/027/img-1.png)
 
-![Screenshot](/Journey/028/img-2.png)
+![Screenshot](/Journey/027/img-2.png)
 
 ### Step 2 — Set a bucket policy
 
-![Screenshot](/Journey/028/img-3.png)
+![Screenshot](/Journey/027/img-3.png)
 
 Unchecking `Block public access` allows your S3 bucket to become public _if_ it has the right policy.
 
-![Screenshot](/Journey/028/img-4.png)
-![Screenshot](/Journey/028/img-5.png)
-![Screenshot](/Journey/028/img-6.png)
+![Screenshot](/Journey/027/img-4.png)
+![Screenshot](/Journey/027/img-5.png)
+![Screenshot](/Journey/027/img-6.png)
 
 Click `edit bucket` then `policy generator`
 
-![Screenshot](/Journey/028/img-7.png)
+![Screenshot](/Journey/027/img-7.png)
 
 Don't forget to add `/*` to the ARN
 
@@ -52,13 +52,13 @@ Copy and paste the JSON object that's just been generated into the Bucket policy
 
 Hit save. Your bucket is now public!
 
-![Screenshot](/Journey/028/img-8.png)
+![Screenshot](/Journey/027/img-8.png)
 
 ### Step 3 — Deploy as an S3 static website
 
 Click on the your bucket > `Properties` > `Static website hosting` > `Edit`
 
-![Screenshot](/Journey/028/img-9.png)
+![Screenshot](/Journey/027/img-9.png)
 
 N.B. the Index document must be named `index.html`
 
