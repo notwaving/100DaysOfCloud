@@ -59,10 +59,10 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 22 > [Woo Boy... (More Exam Prep Stuff)](Journey/022/Readme.md)
 - [x] ☁️ 23 > [It's The Final Countdown!](Journey/023/Readme.md)
 - [x] ☁️ 24 > [:tada: I Am Now AWS Certified! :champagne:](Journey/024/Readme.md)
-- [x] ☁️ 25 > [Discover Chaos Engineering - A Talk :monkey:](Journey/025/Readme.md)
+- [x] ☁️ 25 > [:monkey: Discover Chaos Engineering - A Talk](Journey/025/Readme.md)
 - [x] ☁️ 26 > [It's The Weekend - Time For the Cloud Resume Challenge!](Journey/026/Readme.md)
-- [x] ☁️ 27 > [Amazon S3 Static Website - Cloud Resume Challenge 🌐](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [](Journey/028/Readme.md)
+- [x] ☁️ 27 > [🌐 Amazon S3 Static Website - Cloud Resume Challenge](Journey/027/Readme.md)
+- [x] ☁️ 28 > [🐳 Docker For the Absolute Beginner](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)
 
