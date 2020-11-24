@@ -1,52 +1,35 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Docker Commands
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Run Commmands
 
-## Try yourself
+- `docker run` starts a container from an image
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+  e.g `docker run nginx` will run an instance of the NGINX application on the Docker host if it already exists. If it's not there it will go to Docker Hub and pull the image from there. For subsequent executions the same image will be used.
 
-### Step 1 — Summary of Step
+- `docker ps` lists all running containers
+- `docker ps -a`lists all containers, including ones that aren't running
+- `docker stop <name>` stops named container
+- `docker rm <name>` deletes named container
+- `docker images` lists available images
+- `docker rmi nginx` removes named image.
+  Delete all dependant containers to remove image
+- `docker pull nginx` only pulls the image to store on host (but doesn't run it)
 
-![Screenshot](https://via.placeholder.com/500x300)
+A container only lives (i.e. runs) as long as the process inside it is alive. It doesn't sit in an idle state like a VM. There is no process or application living in it by default.
 
-### Step 1 — Summary of Step
+- To execute a command inside the image:
+  `docker exec <name> cat /etc/hosts` (for example)
 
-![Screenshot](https://via.placeholder.com/500x300)
+- `docker run -d <name>` runs the container in detached mode. It'll run it in the background and you'll be returned to your prompt immediately.
 
-### Step 3 — Summary of Step
+- `docker attach <name/id*>` reattaches the running container
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+N.B. if using ID in a Docker command, you only need to need to use the first few characters of it. Just enough to differentiate it from the other IDs.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](link)
