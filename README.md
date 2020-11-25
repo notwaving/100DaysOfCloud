@@ -64,7 +64,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 27 > [🌐 Amazon S3 Static Website - Cloud Resume Challenge](Journey/027/Readme.md)
 - [x] ☁️ 28 > [🐳 Docker For the Absolute Beginner](Journey/028/Readme.md)
 - [x] ☁️ 29 > [Docker Run Commands](Journey/029/Readme.md)
-- [ ] ☁️ 30 > [](Journey/030/Readme.md)
+- [x] ☁️ 30 > [More Docker Run Commands!](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
 
