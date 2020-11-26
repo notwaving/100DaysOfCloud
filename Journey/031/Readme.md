@@ -78,4 +78,4 @@ The entrypoint instruction is like the cmd instruction, except you can specify t
 
 ## Social Proof
 
-[Twitter](link)
+[Twitter](https://twitter.com/_notwaving/status/1332036488209571840?s=20)
