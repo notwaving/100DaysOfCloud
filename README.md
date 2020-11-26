@@ -68,7 +68,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 ## Into the bushy, thorny forest
 
-- [ ] ☁️ 31 > [](Journey/031/Readme.md)
+- [x] ☁️ 31 > [Docker Images, Env Variables, CMD vs Entrypoint](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)

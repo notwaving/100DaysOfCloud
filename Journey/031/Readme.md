@@ -1,52 +1,81 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+# Docker Images, Env Variables, CMD vs Entrypoint
 
-## Introduction
+## Docker Images
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+### Use Case (Image Creation)
 
-## Prerequisite
+- The service you want to use as part of your app doesn't already exist on Docker Hub.
+- You decide that the app you're developing will be Dockerized for ease of shipping and deployment.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+#### Create
 
-## Use Case
+![dockerfile](/Journey/031/dockerfile.png)
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Create a `Dockerfile` and write down the instructions for setting up your application in it.
 
-## Cloud Research
+![dockerfile](/Journey/031/instructions.png)
+_N.B. Everything on the left in capitals is an instruction; everything to the right are arguments to those instructions._
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+![dockerfile](/Journey/031/tut1.png)
 
-## Try yourself
+![dockerfile](/Journey/031/tut2.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+#### Build
 
-### Step 1 — Summary of Step
+Build your image using the the Docker build command. Remember to be in the same directory. The `-t` is a tag name for the image.
+`docker build -t <account-name>/<image-name>` This will create an image locally (on your system).
 
-![Screenshot](https://via.placeholder.com/500x300)
+#### Layered Architecture
 
-### Step 1 — Summary of Step
+Docker builds images in a layered archictecture: each line of instruction in the build command creates a new layer, with only the changes from the previous layer.
+In our Dockerfile example above:
+Layer 1 is a base Ubuntu OS
+Layer 2 installs the apt packages
+Layer 3 changes in pip packages
+Layer 4 copies the source code over
+Layer 5 updates the entrypoint with `flask` command
+Each layer only stores the changes from the previous layer, and this is reflected in the size too, i.e. small.
+`docker history <image-name>` displays the layers and their respective sizes.
 
-![Screenshot](https://via.placeholder.com/500x300)
+#### Failure
 
-### Step 3 — Summary of Step
+Docker caches the layers built; if one of the layers fails, you can fix the issue, and pick the build again from where you left off. Docker reuses the cached layers to build the remaining layers. So when you update the source code of your app, Docker only needs to rebuild that, and not the entire app.
 
-![Screenshot](https://via.placeholder.com/500x300)
+#### Push
 
-## ☁️ Cloud Outcome
+To make it available on the Docker registry, run the push command:
+`docker push <account-name>/<image-name>`
+You'll need to be logged in - `docker login` - to your account to do this.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+## Environment Variables
 
-## Next Steps
+e.g. `export APP_COLOR=blue; python app.py`
 
-✍️ Describe what you think you think you want to do next.
+Find the ENV variable in container that's already running:
+`docker inspect <image-name>`
+
+ENV Variables in Docker:
+`docker run -e APP_COLOR=blue <image-name>`
+
+## Command vs Entrypoint
+
+When you `run` a container, why does it exit immediately after doing so?
+
+- Unlike virtual machines, containers aren't meant to host an OS.
+- Containers are meant to run a _specific_ task or process.
+- A container only lives as long as the process inside it is alive.
+- A way around this is to add another command and option to the run command, e.g. `docker run ubuntu sleep 5`. This will override the default command specified within the image.
+
+![command-1](/Journey/031/cmd1.png)
+![command-2](/Journey/031/cmd2.png)
+
+The entrypoint instruction is like the cmd instruction, except you can specify the programme will run when the container starts. And whatever you specify on the command line will get _appended_ to the entrypoint.
+
+![entrypoint-1](/Journey/031/entrypoint1.png)
+![entrypoint-2](/Journey/031/entrypoint2.png)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](link)
