@@ -1,52 +1,57 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This template removes the micro tutorial for a quicker post and removes images for a full template check out the 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+# YAML & Docker Compose
 
-## Introduction
+## YAML
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+### Introduction
 
-## Prerequisite
+- I was about to start the class on Docker Compose, but was advised to get familiar with YAML first, so here I am.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+### Use Case
 
-## Use Case
+- Docker configuration
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+### Cloud Research
 
-## Cloud Research
+- A YAML file is used to represent data, in this case, configuration data.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+![XML, JSON, YAML syntax](/Journey/032/syntax.png)
 
-## Try yourself
+- As in Python, indentation, whitespace - matters.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+![XML, JSON, YAML syntax](/Journey/032/indentation.png)
 
-### Step 1 — Summary of Step
+![differences between YAML data structures](/Journey/032/dictionary-array.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+## Docker Compose
 
-### Step 1 — Summary of Step
+### Use Case
 
-![Screenshot](https://via.placeholder.com/500x300)
+If you wanted to set up a complex application running multiple services, a best practice is to use Docker `compose` (rather than `run`). This is easier to implement, run and maintain, as all changes are always stored in the docker-compose config file. However, this is only applicable to running containers on a single Docker host.
 
-### Step 3 — Summary of Step
+![run vs compose](/Journey/032/compose-use-case.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Cloud Research
 
-## ☁️ Cloud Outcome
+- Can create a configuration file in YAML format called `docker-compose.yml`, putting together the different services and the options specific to running them.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- `docker-compose up` brings up the entire application stack.
 
-## Next Steps
+- `docker run --link` has been [deprecated](https://docs.docker.com/network/links/), but worth having a look at, even as it gets replaced by advanced features such as Docker Swarm and networking
 
-✍️ Describe what you think you think you want to do next.
+- Use the run commands to make your compose file, then use `docker-compose up` to bring up the stack
+
+![from run to compose](/Journey/032/run-to-compose.png)
+
+- N.B. There are three versions of docker-compose.
+
+![versions 1-3 of docker compose](/Journey/032/docker-compose-versions.png)
+
+- Here's an example of how the Docker compose file relates to the application architecture:
+
+![docker compose file and app architecure](/Journey/032/compose-and-architecture.png)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1332460198791946243?s=20)
