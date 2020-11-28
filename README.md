@@ -70,7 +70,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 - [x] ☁️ 31 > [Docker Images, Env Variables, CMD vs Entrypoint](Journey/031/Readme.md)
 - [x] ☁️ 32 > [YAML & Docker Compose](Journey/032/Readme.md)
-- [ ] ☁️ 33 > [](Journey/033/Readme.md)
+- [x] ☁️ 33 > [Docker Engine, Storage, and Registry](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [](Journey/036/Readme.md)

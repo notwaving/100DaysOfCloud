@@ -1,52 +1,29 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Docker Engine, Storage, and Registry
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Looked at how Docker works under the hood (Docker Engine).
 
-## Try yourself
+- Where Docker stores its files and in what format:
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+![docker file system tree](/Journey/033/filesystem.png)
 
-### Step 1 — Summary of Step
+- How Docker utlizes the cache when building Dockerfiles, using layered architecture.
 
-![Screenshot](https://via.placeholder.com/500x300)
+![layered architecture](/Journey/033/architecture.png)
 
-### Step 1 — Summary of Step
+- If we want data to persist once the container's life is over we create a volume. N.B. the more verbose `-mount` is now used over `-v`.
 
-![Screenshot](https://via.placeholder.com/500x300)
+![docker volume](/Journey/033/volumes.png)
 
-### Step 3 — Summary of Step
+Storage in Docker : https://docs.docker.com/storage/
 
-![Screenshot](https://via.placeholder.com/500x300)
+Storage Drivers: https://docs.docker.com/storage/storagedriver/
 
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+- Docker Registry is a central repository of all Docker images.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1332756327320444930?s=20)
