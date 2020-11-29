@@ -20,7 +20,6 @@ I started the challenge because I wanted to document my learning journey.
 At the end of the challenge I'd like to be AWS Certified, and to have built some fun projects in the Cloud.
 
 - [@\_notwaving](https://twitter.com/_notwaving)
-- [LinkedIn](https://www.linkedin.com/in/samantha-burke)
 
 ## Stepping out the door
 
@@ -66,7 +65,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 31 > [Docker Images, Env Variables, CMD vs Entrypoint](Journey/031/Readme.md)
 - [x] ☁️ 32 > [YAML & Docker Compose](Journey/032/Readme.md)
 - [x] ☁️ 33 > [Docker Engine, Storage, and Registry](Journey/033/Readme.md)
-- [ ] ☁️ 34 > [](Journey/034/Readme.md)
+- [x] ☁️ 34 > [Container Orchestration - Docker Swarm & Kubernetes](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [](Journey/037/Readme.md)

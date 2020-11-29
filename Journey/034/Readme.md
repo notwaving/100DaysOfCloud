@@ -1,52 +1,32 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+# Container Orchestration - Docker Swarm & Kubernetes
 
-## Introduction
+## Docker Swarm
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Container orchestration solutions can assist with scaling horizontally and vertically, high availability, advanced networking between containers across different hosts, load balancing, etc
 
-## Prerequisite
+- Solutions include Docker Swarm, Kubernetes (Google), and MESOS (Apache)
+- With Docker Swarm, you can combine multiple Docker machines together into a single cluster. DS will distribute your app/instances into separate hosts for high availability and load balancing across different systems and hardware.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+![docker swarm](/Journey/034/docker-swarm.png)
 
-## Use Case
+## Introduction to Kubernetes
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+With Kubernetes, using the Kubernetes CLI (kube control) you can run a thousand instances of the same application in a single command.
 
-## Cloud Research
+- Can be configured to do this automatically, so that instances and infrastructure can scale up and down accordingly... among many other things
+- Uses Docker host to host applications in the form of Docker containers.
+- A `node` is a worker machine (physical or virtual), on which k8s software is installed, where containers will be launched by k8s.
+- To recover from failure we have more than one node. A cluster is a set of nodes grouped together for this purpose.
+- The `master` is responsible for the orchestration of containers on the worker nodes.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+_Kubernetes components_
 
-## Try yourself
+![kubernetes components](Journey/034/components.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- `kubectl` - the kube control tool - is the k8s CLI. The `kubectl run` run command is used to deploy an app on the cluster; `kubectl cluster-info` is used to view info on the cluster; and `kubectl get nodes` lists the nodes in the cluster.
 
-### Step 1 — Summary of Step
+### Social Proof
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1333125786245754881?s=20)
