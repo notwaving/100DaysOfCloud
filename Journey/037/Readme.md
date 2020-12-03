@@ -1,52 +1,43 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+# DevOps - The Introduction Course: 2
 
-## Introduction
+## Chef - Deployment Models: Server-Client & Chef Zero
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Server Client - production
 
-## Prerequisite
+- Think of this as being like a restaurant where the chef (host machine)delivers different requests to different customers (nodes)
+- Pull-based mechanism
+- Chef server can only be Linux; client/node can be other OS
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Chef Zero - production cookbooks, testing, proof of concept
 
-## Use Case
+- aka self-contained server
+- Acts as server and client on a single host
+- Think of it like a test kitchen
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+### Cloud Research
 
-## Cloud Research
+- Chef is a Ruby-based, system-automation-friendly, IT automation tool used to configure, manage, deploy and orchestrate various applications and services across your entire infrastructure
+- Comes with two deployment models
+  - Chef-Zero (lighter model for dev, testing, proof of concept)
+  - Server-Client
+- OS
+  - Chef Server - Linux only
+  - Chef Client - Linux and Windows
+- Chef uses a declarative programming approach
+- Consistent delivery
+- Highly scalable
+- Increased productivity
+- Simplicity
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## Ansible Fundamentals
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+- Automates repetitive tasks, without needing to write/maintain scripts.
+- Ansible is simple, powerful and agentless
+- Uses 'playbooks' to automate (with YAML)
+- Lots of exercises in the [docs](https://docs.ansible.com/)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1334612747212959747?s=20)
