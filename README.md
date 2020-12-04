@@ -69,7 +69,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 35 > [The Phoenix Project](Journey/035/Readme.md)
 - [x] ☁️ 36 > [DevOps - The Introduction Course: 1](Journey/036/Readme.md)
 - [x] ☁️ 37 > [DevOps - The Introduction Course: 2](Journey/037/Readme.md)
-- [ ] ☁️ 38 > [](Journey/038/Readme.md)
+- [x] ☁️ 38 > [DevOps - The Introduction Course: 3](Journey/038/Readme.md)
 - [ ] ☁️ 39 > [](Journey/039/Readme.md)
 - [ ] ☁️ 40 > [](Journey/040/Readme.md)
 

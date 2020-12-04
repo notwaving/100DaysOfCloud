@@ -1,52 +1,76 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+# DevOps - The Introduction Course: 3
 
-## Introduction
+## Puppet
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+- Ruby-based
+- Created in 2005
+- Puppet resourses can perform almost any IT automation task
+- Master-client model - primary deployment model - pull-based (like Chef)
+- Self-contained standalone model - dev, testing, proof of context
+- OS
+  - Puppet Master - Linux only
+  - Puppet Agent - Linux and Windows
+- Declarative programming
+- Consistent delivery
+- Scaleable
+- Simple
 
-## Prerequisite
+## Kubernetes
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+### Architecture
 
-## Use Case
+- A `node` is a worker machine (physical or virtual), running k8s. This is where containers are launched from. Also known as 'minions' in the past
+- A `cluster` is a set of multiple nodes, built for redundancy.
+- A `master` is another node, configured as a master. It is responsible for container orchestration on the worker nodes.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+#### Components on Master Nodes
 
-## Cloud Research
+- `API server` - front end for K8s
+- `etcd` service - key-value store
+- `controller` - brains behind orchestration. Responsible for noticing and responding when nodes, containers or endpoints go down. They make decisions to bring up new containers in such cases.
+- `scheduler` - distributes work/containers across multiple nodes. It looks for newly created containers and assigns them to nodes.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+#### Components on Worker Nodes
 
-## Try yourself
+- `kubelet` service - agent that runs on each node in the cluster. Responsible for making sure that the containers are running on the nodes as expected.
+- `container runtime` - underlying software used to run containers (e.g. Docker)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+#### kubectl (kube command line tool / kube control)
 
-### Step 1 — Summary of Step
+- Used to deploy and manage applications on a k8s cluster
+- Also used to get cluster information, status of other nodes, and other management
+- `kubectl run` command is used to deploy an application on the cluster
+- Other commands include `kubectl cluster-info` and `kubectl get nodes` (lists nodes in cluster)
 
-![Screenshot](https://via.placeholder.com/500x300)
+## OpenShift
 
-### Step 1 — Summary of Step
+OpenShift is Red Hat's open source container application platform for developing and hosting enterprise-grade hosting and applications.
 
-![Screenshot](https://via.placeholder.com/500x300)
+PaaS. OpenShift takes care of managing the underlying infrastructure components
 
-### Step 3 — Summary of Step
+Four different flavours of OpenShift, but we're going to focus on OpenShift Origin
 
-![Screenshot](https://via.placeholder.com/500x300)
+- based on top of Docker containers and the K8s cluster manager, with added developer and operational centric tools that enable rapid app development, deployment and lifecycle management.
 
-## ☁️ Cloud Outcome
+### Architecture
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+#### Components
 
-## Next Steps
+- OpenShift Container Registry (OCR)
+- OpenShift Web Console allows devs to browse and manage their apps
+- Source Code Management systems for built-in integrations
+- CI/CD pipelines (which is then pushed into the OCR)
 
-✍️ Describe what you think you think you want to do next.
+### Cloud Research
+
+- [The difference between Ansible, Chef, and Puppet](https://www.gangboard.com/blog/ansible-vs-puppet-vs-chef)
+- Push-based: Ansible, Saltstack
+- Pull-Based: Puppet, Chef
+
+- OpenShift is a hybrid cloud platform
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1334931316727541767?s=20)
