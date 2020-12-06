@@ -71,7 +71,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 37 > [DevOps - The Introduction Course: 2](Journey/037/Readme.md)
 - [x] ☁️ 38 > [DevOps - The Introduction Course: 3](Journey/038/Readme.md)
 - [x] ☁️ 39 > [Cloud Resume Challenge - Route 53 & Certificate Manager](Journey/039/Readme.md)
-- [ ] ☁️ 40 > [](Journey/040/Readme.md)
+- [ ] ☁️ 40 > [Cloud Resume Challenge - Setting up HTTPS with CloudFront 🔒](Journey/040/Readme.md)
 
 ## Trekking the dunes
 
