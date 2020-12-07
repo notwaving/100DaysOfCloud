@@ -1,6 +1,6 @@
 ![https in action](/Journey/040/https.png)
 
-# Cloud Resume Challenge - Setting up HTTPS with CloudFront 🔒
+# 🔒 Cloud Resume Challenge - Setting up HTTPS with CloudFront 🔒
 
 ## Introduction
 
