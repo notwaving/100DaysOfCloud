@@ -16,4 +16,4 @@
 
 ## Social Proof
 
-[Twitter](link)
+[Twitter](https://twitter.com/_notwaving/status/1336019025147670529?s=20)
