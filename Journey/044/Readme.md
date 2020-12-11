@@ -17,7 +17,7 @@ I'm currently setting up a DevOps tooling environment and this was the next step
 ## Cloud Research
 
 1. **Add a new project in GitLab for proxy application**
-2. Setup AWS account with new ECR repo
+2. Setup AWS IAM account with new ECR repo
 3. Create a Dockerfile and NGINX configurations
 4. Create a CI cluster account for GitLab to authenticate with AWS in order to push our image
 5. Set up pipeline jobs in GitLab to run workflow
