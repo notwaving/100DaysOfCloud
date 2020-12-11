@@ -1,6 +1,3 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
 # NGINX Proxy Pt 2
 
 ## Introduction
@@ -30,7 +27,7 @@ Familiarity with the AWS console
 
 - Log in to AWS console with administrator account (setup on day 42 of #100DaysOfCloud)
 - Head over to ECR
-- Make sure you're in the right Region - us-east-1 for this course
+- Make sure you're in the right Region - `us-east-1` for this course
 - Click `create a repository`
 - Give it a name (it's recommended to give it the same name as your GitLab repo for easy identification)
 - Select `scan on push` - this will scan your image for vulnerabilities every time you push.
@@ -90,14 +87,14 @@ The user is what the CICD tools are going to use to login, to push our image
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- The class was easy to follow and the instructor took the time to explain each step clearly before moving on.
+- This is the first time I've created a programmatic IAM user with least privilege (before this, I've created IAM users with full admin privileges)
+- Loved learning all the different options when setting IAM/env variables etc. Sometimes a guide like this can skip over the reasoning behind some of the selections you're told to make.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Congigure NGINX.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[Twitter](link)
+[Twitter](https://twitter.com/_notwaving/status/1337411908945776643?s=20)
