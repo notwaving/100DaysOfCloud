@@ -179,4 +179,4 @@ This introductary lab is about authoring your own Actions. Next time, I'll look 
 
 ## Social Proof
 
-[Twitter](link)
+[Twitter](https://twitter.com/_notwaving/status/1337843178511196161?s=20)
