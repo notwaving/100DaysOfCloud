@@ -80,7 +80,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 43 > [Brain Fried...](Journey/043/Readme.md)
 - [x] ☁️ 44 > [NGINX Proxy Pt 1](Journey/044/Readme.md)
 - [x] ☁️ 45 > [NGINX Proxy Pt 2](Journey/045/Readme.md)
-- [ ] ☁️ 46 > [](Journey/046/Readme.md)
+- [ ] ☁️ 46 > [Cloud Resume Challenge - GitHub Actions with GitHub Learning Lab 🤖](Journey/046/Readme.md)
 - [ ] ☁️ 47 > [](Journey/047/Readme.md)
 - [ ] ☁️ 48 > [](Journey/048/Readme.md)
 - [ ] ☁️ 49 > [](Journey/049/Readme.md)
