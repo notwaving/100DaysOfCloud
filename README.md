@@ -84,11 +84,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 47 > [Cloud Resume Challenge - Github Action for Front End 🤖](Journey/047/Readme.md)
 - [x] ☁️ 48 > [Python - it's for an AWS Lambda!](Journey/048/Readme.md)
 - [x] ☁️ 49 > [NGINX Proxy Pt 3](Journey/049/Readme.md)
-<<<<<<< HEAD
-- [ ] ☁️ 50 > [](Journey/050/Readme.md)
-=======
 - [x] ☁️ 50 > [Cloud Resume Challenge - JavaScript Counter](Journey/050/Readme.md)
->>>>>>> day50
 
 ## Winding through the canyons
 
