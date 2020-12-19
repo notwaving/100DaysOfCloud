@@ -1,5 +1,4 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![halway there!](/Journey/050/halfway-there.jpg)
 
 # New post title here
 
