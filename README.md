@@ -88,7 +88,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 ## Winding through the canyons
 
-- [ ] ☁️ 51 > [Introduction to AWS SAM CLI](Journey/051/Readme.md)
+- [x] ☁️ 51 > [Introduction to AWS SAM CLI](Journey/051/Readme.md)
 - [ ] ☁️ 52 > [](Journey/052/Readme.md)
 - [ ] ☁️ 53 > [](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
