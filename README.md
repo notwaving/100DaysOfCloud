@@ -80,15 +80,15 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 43 > [Brain Fried...](Journey/043/Readme.md)
 - [x] ☁️ 44 > [NGINX Proxy Pt 1](Journey/044/Readme.md)
 - [x] ☁️ 45 > [NGINX Proxy Pt 2](Journey/045/Readme.md)
-- [x] ☁️ 46 > [Cloud Resume Challenge - GitHub Actions with GitHub Learning Lab 🤖](Journey/046/Readme.md)
-- [x] ☁️ 47 > [Cloud Resume Challenge - Github Action for Front End 🤖](Journey/047/Readme.md)
+- [x] ☁️ 46 > [🤖 Cloud Resume Challenge - GitHub Actions with GitHub Learning Lab](Journey/046/Readme.md)
+- [x] ☁️ 47 > [🤖 Cloud Resume Challenge - Github Action for Front End](Journey/047/Readme.md)
 - [x] ☁️ 48 > [Python - it's for an AWS Lambda!](Journey/048/Readme.md)
 - [x] ☁️ 49 > [NGINX Proxy Pt 3](Journey/049/Readme.md)
 - [x] ☁️ 50 > [Cloud Resume Challenge - JavaScript Counter](Journey/050/Readme.md)
 
 ## Winding through the canyons
 
-- [ ] ☁️ 51 > [](Journey/051/Readme.md)
+- [ ] ☁️ 51 > [Introduction to AWS SAM CLI](Journey/051/Readme.md)
 - [ ] ☁️ 52 > [](Journey/052/Readme.md)
 - [ ] ☁️ 53 > [](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
