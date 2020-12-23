@@ -1,6 +1,6 @@
 ![SAM](/Journey/051/sam-cli.jpg)
 
-# Introduction to AWS SAM CLI
+# Introduction to AWS SAM CLI Pt 1
 
 ## Introduction
 
@@ -12,6 +12,7 @@ I imagine this is going to be quite the learning curve, so today I'm looking at 
 
 - Familiarity with AWS services
 - Working knowledge of the terminal
+- Docker installed on machine
 
 ## Use Case
 
