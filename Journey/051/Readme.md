@@ -65,7 +65,7 @@ Think my handle is confusing enough?
 
 ## Next Steps
 
-Work my way through the blog - it's nicely laid out. Otherwise, I can try testing it this app locally too.
+Work my way through the blog - it's nicely laid out. Otherwise, I can try testing this app locally too.
 
 ## Social Proof
 
