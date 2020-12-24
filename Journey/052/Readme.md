@@ -45,9 +45,29 @@ The tutorial is over, so now we need to delete the AWS CloudFormation stack we c
 #### Option 1 - Delete from the AWS console
 
 - Sign into the AWS Management Console
-- Open the
+- Open the CloudFormation console at https://console.aws.amazon.com/cloudformation
+
+![cloudformation console](/Journey/052/cloudformation.png)
+
+- In the left navigation pane, choose `Stacks`
+
+- In the list of stacks, choose `sam-app`
+
+- Click `delete`
 
 #### Option 2 - Delete from the AWS command line
+
+`aws cloudformation delete-stack --stack-name sam-app --region <region>`
+
+![deleting the app](/Journey/052/the-power.png)
+
+#### Verifying the deleted stack
+
+For both methods of deletion, you can verify that the stack is deleted by going into the CloudFormation console, click `Stacks` in the navigation panel, then in the dropdown list (right of the search box), `Deleted`. You should see the name of the deleted stack here.
+
+![deleted stacks](/Journey/052/deleted-stacks.png)
+
+🎉
 
 ## Social Proof
 
