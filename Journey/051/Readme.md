@@ -12,7 +12,9 @@ I imagine this is going to be quite the learning curve, so today I'm looking at 
 
 - Familiarity with AWS services
 - Working knowledge of the terminal
-- Docker installed on machine
+- IAM user with admin permission
+- Docker if you want to test locally
+- Homebrew if you're on macOS or Linux
 
 ## Use Case
 
@@ -33,7 +35,7 @@ Getting started with SAM CLI: installation and Hello World app
 
 ### Step 1 — Install and configure SAM CLI
 
-- Follow the [guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html) for your OS. As a Mac user I've already got an AWS account, IAM with admin permissions, Docker and Homebrew installed on my machine.
+- Follow the [guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html) for your OS.
 - All that's left to install is the SAM CLI, and that's done via Hombrew with `brew tap aws/tap` and `brew install aws-sam-cli`.
 
 ### Step 2 — Build a `Hello World` application
