@@ -1,52 +1,29 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Cloud Resume Challenge - Testing the Lambda Function
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Only a couple of requirements left on the list. Thought I'd get the tests working before wrapping everything up in a YAML template and implementing a GitHub Action.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- Python syntax
+- Some knowledge of testing
+- [This](https://realpython.com/python-testing/) is a really nicely written guide
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- Before we create a CI/CD pipeline for the backend, we know that AWS handles/tests the services as described in the YAML template. However, in a production scale version of an app - with developers potentially making changes to the Lambda function - we'd want testing for the Python code that powers it.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- Read the guide, linked in _Prerequisite_ above
+- Imported boto3, os, pytest, moto and the lambda_function itself, although that's come with problems because the folder is called `lambda`. This is reserved keyword in Python, so won't work as intended, but changing the folder name breaks the build... Next steps would be to
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+`Build Failed > Error: PythonPipBuilder:ResolveDependencies`
+Find out where this error is coming from exactly, so we can rename the folder currently called `lambda`.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1342815330222149632?s=20)
