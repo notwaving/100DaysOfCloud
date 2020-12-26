@@ -90,8 +90,8 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 - [x] ☁️ 51 > [Introduction to AWS SAM CLI Pt 1](Journey/051/Readme.md)
 - [x] ☁️ 52 > [Introduction to AWS SAM CLI Pt 2](Journey/052/Readme.md)
-- [x] ☁️ 53 > [Cloud Resume Challenge - SAM CLI](Journey/053/Readme.md)
-- [ ] ☁️ 54 > [](Journey/054/Readme.md)
+- [x] ☁️ 53 > [Cloud Resume Challenge - SAM CLI & CloudFormation](Journey/053/Readme.md)
+- [x] ☁️ 54 > [](Journey/054/Readme.md)
 - [ ] ☁️ 55 > [](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [](Journey/057/Readme.md)
