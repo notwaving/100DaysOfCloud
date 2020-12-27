@@ -17,7 +17,8 @@ Only a couple of requirements left on the list. Thought I'd get the tests workin
 ## Cloud Research
 
 - Read the guide, linked in _Prerequisite_ above
-- Imported boto3, os, pytest, moto and the lambda_function itself, although that's come with problems because the folder is called `lambda`. This is reserved keyword in Python, so won't work as intended, but changing the folder name breaks the build... Next steps would be to
+- Imported boto3, os, pytest, moto and the lambda_function itself, although that's come with problems because the folder is called `lambda`. This is reserved keyword in Python, so won't work as intended, but changing the folder name breaks the build...
+- Found the location of the `lambda` directory uri as defined in the template, so was able to change it!
 
 ## Next Steps
 
