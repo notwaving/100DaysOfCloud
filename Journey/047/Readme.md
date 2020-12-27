@@ -1,6 +1,6 @@
 ![eleven's the charm](/Journey/047/eleven.png)
 
-# Cloud Resume Challenge - Github Action for Front End 🤖
+# 🤖 Cloud Resume Challenge - Github Action for the Front End
 
 ## Introduction
 
