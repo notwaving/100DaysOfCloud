@@ -22,8 +22,10 @@ Only a couple of requirements left on the list. Thought I'd get the tests workin
 
 ## Next Steps
 
-`Build Failed > Error: PythonPipBuilder:ResolveDependencies`
-Find out where this error is coming from exactly, so we can rename the folder currently called `lambda`.
+~~`Build Failed > Error: PythonPipBuilder:ResolveDependencies`
+Find out where this error is coming from exactly, so we can rename the folder currently called `lambda`.~~
+
+Would _love_ to write more tests, but GitHub actions is calling me...
 
 ## Social Proof
 
