@@ -50,7 +50,7 @@ For this Action we only need to know AWS access key and secret access keys.
 
 ## ☁️ Cloud Outcome
 
-- Greatful to Past Sam for documenting the process - it took about 30 mins to implement today!
+- Grateful to Past Sam for documenting the process - it took about 30 mins to implement today!
 
 ## Next Steps
 
