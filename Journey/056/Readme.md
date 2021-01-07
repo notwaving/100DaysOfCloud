@@ -51,13 +51,26 @@ Use this to help make performance assessments
 
 Not taking orders on what to do. Instead, you're doing your best to understand needs and value of products.
 
-### Step 3 — Summary of Step
+## Primary Roles - SRE
 
-![Screenshot](https://via.placeholder.com/500x300)
+![slide](/Journey/056/sre-slide.png)
+
+"SRE implements DevOps"
+
+## Money
+
+Median salary ranges in the US (for all infrastructure roles, hence wide ranges)
+
+Entry - Entry-Mid -> 60k - 95k
+Entry-Mid - Mid-Senior -> 95k - 150k
+Mid-Senior - ??? -> 120k?
+
+These salaries are high. Beware of Imposter Syndrome.
+Aaron predicts more apprenticeships as the need for DevOps folks keeps increasing.
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Lots of overlap between DevOps and SRE roles. But remember that at least officially, DevOps is about devopment and SRE is about systems. DevOps is more Configuration as Code than pure programming.
 
 ## Next Steps
 
