@@ -1,37 +1,55 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Pipelines - DevOps class
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today we're taking a remote class on Twitch with Aaron Brooks of Mastermnd Audio
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- None. This is pretty high level
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- Class is designed for newbies to DevOps. As the second class it's pretty high level, so we understand what we're getting into!
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Primary Roles - DevOps
 
-## Try yourself
+## Primary Roles in DevOps
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+#### Documenting "tribal" knowledge
 
-### Step 1 — Summary of Step
+The type of knowledge you have when you're part of an org. The people there know how these things work - only known among the "tribe" and not written down. Info is scattered among individuals, and goes when they leave the org. DevOps is about documenting these processes so knowledge can be shared! It is very difficult to do, and usually the first thing to be neglected in the heat of making an app. "Document like you're leaving in two weeks"
 
-![Screenshot](https://via.placeholder.com/500x300)
+#### CI/CD management and automation
 
-### Step 1 — Summary of Step
+As DevOps you're the arbiter of pipelines and processes - and what most people associate with the title. This means using tools such as Jenkins, Circle CI, Bamboo, GitHub Actions...
 
-![Screenshot](https://via.placeholder.com/500x300)
+#### Developer Support
+
+Building ways for people to deliver code faster. Your job is to find out what developers need, and making sure those things can happen.
+
+#### Process Automation
+
+#### Infrastructure Management
+
+You're responsible for dev delivery, but also servers
+
+#### Performance Assessment
+
+Making sure that the apps you're running are working in the way that's intended.
+
+#### Monitoring
+
+Use this to help make performance assessments
+
+#### Collaborators
+
+Not taking orders on what to do. Instead, you're doing your best to understand needs and value of products.
 
 ### Step 3 — Summary of Step
 
