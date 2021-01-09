@@ -1,11 +1,8 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
 # Pipelines - DevOps class
 
 ## Introduction
 
-Today we're taking a remote class on Twitch with Aaron Brooks of Mastermnd Audio
+Today we're taking a remote class on Twitch with Aaron Brooks of Mastermnd.
 
 ## Prerequisite
 
