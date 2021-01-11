@@ -96,7 +96,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 56 > [Pipelines - DevOps class](Journey/056/Readme.md)
 - [x] ☁️ 57 > [Hoist: Terraform Tutorial Pt 1](Journey/057/Readme.md)
 - [x] ☁️ 58 > [🌍 HashiCorp Terraform AWS Tutorials Pt 1](Journey/058/Readme.md)
-- [ ] ☁️ 59 > [](Journey/059/Readme.md)
+- [ ] ☁️ 59 > [🌍 HashiCorp Terraform AWS Tutorials Pt 2](Journey/059/Readme.md)
 - [ ] ☁️ 60 > [](Journey/060/Readme.md)
 
 ## Stumbling through the caves
