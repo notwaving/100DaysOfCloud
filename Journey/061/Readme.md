@@ -1,15 +1,12 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Hoist: Terraform Tutorial Pt 3
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Pushing on with Mastermndio's free Terrform course!
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- It would help if you did the previous classes
 
 ## Use Case
 
@@ -18,12 +15,30 @@
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Input Variables
+- Modules
+- Output Variables
+- Understanding State
+- Practice!
+
+### Input Variables
+
+HCL allows you to use variables for making dynamic configurations
+
+These variables can be used to specify values for parameters and args that may change, depending on how you're using the config. They can be placed in files with these formats:
+
+- variables.tf
+- terraform.tfvars
+- terraform.tfvars.json
+  Then you reference the variables contained within, in your main config file
+
+Environment variables are prefixed with `TF_VAR_`
+
+We declare variables like a resources in our configuration
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+We're going to have a play with variables and how they integrate with the Terraform
 
 ### Step 1 — Summary of Step
 
@@ -43,10 +58,8 @@
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Part 4, of course!
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1349381862775545857?s=20)
