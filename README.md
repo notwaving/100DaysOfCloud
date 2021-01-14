@@ -101,8 +101,8 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 ## Stumbling through the caves
 
-- [ ] ☁️ 61 > [Hoist: Terraform Tutorial Pt 3](Journey/061/Readme.md)
-- [ ] ☁️ 62 > [](Journey/062/Readme.md)
+- [x] ☁️ 61 > [Hoist: Terraform Tutorial Pt 3](Journey/061/Readme.md)
+- [ ] ☁️ 62 > [RDS and Terraform](Journey/062/Readme.md)
 - [ ] ☁️ 63 > [](Journey/063/Readme.md)
 - [ ] ☁️ 64 > [](Journey/064/Readme.md)
 - [ ] ☁️ 65 > [](Journey/065/Readme.md)

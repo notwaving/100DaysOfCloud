@@ -1,7 +1,4 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# RDS and Terraform
 
 ## Introduction
 
@@ -9,7 +6,8 @@
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- Familiar with AWS
+- Confidence with the command line
 
 ## Use Case
 
@@ -25,17 +23,37 @@
 
 ✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+### Step 1 — Create `main.tf` and `variables.tf`
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Code is already in course repo, and forked to your organisation so copy and configure that!
 
-### Step 1 — Summary of Step
+### Step 2 — Terraform commands
 
-![Screenshot](https://via.placeholder.com/500x300)
+`terraform init` to sort out the repo
+`format` and `validate`
+`plan`
+`apply`
 
-### Step 3 — Summary of Step
+### Step 3 — Set up instance
 
-![Screenshot](https://via.placeholder.com/500x300)
+You're prompted to enter:
+
+- name of your database instance! `my-example-instance`
+  `name` - (Optional) The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. Note that this does not apply for Oracle or SQL Server engines. See the AWS documentation for more details on what applies for those engines.
+- password `I wish I was in Dixie`
+  `password` - (Required unless a snapshot_identifier or replicate_source_db is provided) Password for the master DB user. Note that this may show up in logs, and it will be stored in the state file.
+- instance identifier `my-test-database`
+  `identifier` as defined in Terraform:
+  (Optional, Forces new resource) The name of the RDS instance, if omitted, Terraform will assign a random, unique identifier. Required if restore_to_point_in_time is specified.
+
+NB - prompted in same way for db instance and instance identifier - double check class video for disambiguation
+
+Is this only stored on your machine?
+
+### Step 4 - Execute
+
+- Double check the execution plan
+- Make a note of your vars and password
 
 ## ☁️ Cloud Outcome
 
