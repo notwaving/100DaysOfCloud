@@ -67,4 +67,4 @@ Is this only stored on your machine?
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1349842799106158597?s=20)
