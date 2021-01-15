@@ -1,4 +1,4 @@
-# New post title here
+# Hoist: Terraform Tutorial Pt 4
 
 ## Introduction
 
@@ -41,8 +41,6 @@ If supported, our backend can lock state so that we don't run into any conflicts
 - `terraform state list` lists resources in the state.
 
 ## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
 ### Step 1 — Create `.tf` and `.tfvars` file for modules
 
