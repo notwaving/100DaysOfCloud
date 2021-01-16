@@ -1,52 +1,83 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Hoist: Terraform Tutorial Pt 5
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+We're nearly there! Going in deep on further Terraform features
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- Understand everything in prior Hoist classes
+- Docker, if following the additional tutorial
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- You want to secure your configuration secrets
+- You want to loop through a list to produce multiple resources of the same type, but make each unique in some way
+- You want to parse information or make decisions based on info coming through as variables (either input or output)
+- You're importing legacy Terraform config
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Secrets management
+- Functions and dynamic templates
+- Importing infrastructure
+
+### Secrets Management
+
+Secrets are any sensistive data that Terraform needs access to in order to deploy and configure infrastructure properly. These include things such as usernames, passwords and API keys.
+
+- Don't store secrets in version control - or anywhere - in plain text
+- Keep Terraform state safe
+
+There are three main methods for handling secrets in Terraform. In order of effectiveness:
+
+- Environment Variables (like `TF_VAR`s) - local only
+  These aren't managed by Terraform, so could be confusing to any collaborators (because they can't access them)
+- Encrypted files (i.e. security by obscurity). You can push these to source control, as no one has the keys. Except someone has to manage the keys...
+  - KMS
+  - PGP
+- Secret Managers (overkill for small and personal projects)
+  - AWS Secrets Manager - $0.40 per secret per month!!!!
+  - Vault - also not free
+
+AWS also offers KMS
+
+### Functions and dynamic templates
+
+Because Terraform is written in Go, "the only loops available are for loops"! Remember how you wanted to create multiple EC2 instances, and used the `count` parameter? It created those instances with a [for loop](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9).
+
+There are also [built in functions](https://www.terraform.io/docs/configuration/functions.html)
+
+`terraform console` takes you to the interpreter, aka Terraform console, where you can test functions
+
+- `max(1, 67, 7)` returns 67
+- `split("", "hello")` returns `"h", "e", "l", "l", "o"`
+  - `split(".", "www.academy.mastermnd.io")[2]` returns `mastermnd`
+
+### Importing Infrastructure
+
+Sometimes, things already exist. Which you're normally going to be provisioning new infrastructure, sometimes you'll need to handle old stuff.
+
+We can import existing infrastructure.
+
+- a single resource at a time
+- doesn't import configuration, which means it alters the normal Terraform workflow
+  - `apply`, then write config
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+We're going to import infrastructure, using Docker! [Documentation](https://learn.hashicorp.com/tutorials/terraform/state-import)
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
+Follow the tutorial in the link.
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Not sure I'd be regularly using much of this, especially importing. Learnt about the existence and power of functions. Discovering the different secrets management options was really useful too.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Last part tomorrow!
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1350528148836937728?s=20)
