@@ -24,14 +24,14 @@ We're nearly there! Going in deep on further Terraform features
 
 ### Secrets Management
 
-Secrets are any sensistive data that Terraform needs access to in order to deploy and configure infrastructure properly. These include things such as usernames, passwords and API keys.
+Secrets are any sensitive data that Terraform needs access to in order to deploy and configure infrastructure properly. These include things such as usernames, passwords and API keys.
 
 - Don't store secrets in version control - or anywhere - in plain text
 - Keep Terraform state safe
 
 There are three main methods for handling secrets in Terraform. In order of effectiveness:
 
-- Environment Variables (like `TF_VAR`s) - local only
+- Environment Variables (like `TF_VAR`s) - local only.
   These aren't managed by Terraform, so could be confusing to any collaborators (because they can't access them)
 - Encrypted files (i.e. security by obscurity). You can push these to source control, as no one has the keys. Except someone has to manage the keys...
   - KMS
