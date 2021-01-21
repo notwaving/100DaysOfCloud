@@ -1,52 +1,21 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Fightin' 🔥🔥🔥 and Wranglin' 🤠
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+This morning I woke up to this...
+![exposed-key](/Journey/068/exposed-key.png)
+...because _someone_ (i.e. _not me_) decided to commit our keys to GitHub (on an AWS account with MY credit card details on it). Thankfully times have changed, and the _right_ bot found it and put our key in quarrantine till it could be sorted out
 
-## Try yourself
+Last thing I've done today is revoke permissions for _someone_ who keeps pushing directly to the master branch - and therefore our live site. Or at least I've created a rule for the branch in GitHub...
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Meanwhile, I put some slides together and rehearsed a short presentation for how I deployed our React app to AWS - my first time actually talking out loud about cloud architecture!
 
-### Step 1 — Summary of Step
+Didn't realise that CloudFront only updates the cache once per 24 hours. But because someone was simultanously cowboying their broken code straight into the prod bucket
 
-![Screenshot](https://via.placeholder.com/500x300)
+![don't do this](https://media.giphy.com/media/11VKF3OwuGHzNe/giphy.gif)
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+it took more time to diagnose and fix the problem. CloudFront cache is now invalidated. Good old Cloud Resume Challenge!
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1352044412587675648?s=20)

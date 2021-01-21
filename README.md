@@ -108,7 +108,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 65 > [Hoist: Terraform Tutorial Pt 6](Journey/065/Readme.md)
 - [x] ☁️ 66 > [Revising Serverless, REST APIs & Lambda Functions](Journey/066/Readme.md)
 - [x] ☁️ 67 > [Automating Terraform With GitHub Actions (I am a Monster)](Journey/067/Readme.md)
-- [ ] ☁️ 68 > [](Journey/068/Readme.md)
+- [x] ☁️ 68 > [Fightin' 🔥🔥🔥 and Wranglin' 🤠](Journey/068/Readme.md)
 - [ ] ☁️ 69 > [](Journey/069/Readme.md)
 - [ ] ☁️ 70 > [](Journey/070/Readme.md)
 
