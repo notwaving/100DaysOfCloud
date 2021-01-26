@@ -102,7 +102,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 ## Stumbling through the caves
 
 - [x] ☁️ 61 > [Hoist: Terraform Tutorial Pt 3](Journey/061/Readme.md)
-- [ ] ☁️ 62 > [Creating an AWS RDS Instance with Terraform](Journey/062/Readme.md)
+- [x] ☁️ 62 > [Creating an AWS RDS Instance with Terraform](Journey/062/Readme.md)
 - [x] ☁️ 63 > [Hoist: Terraform Tutorial Pt 4](Journey/063/Readme.md)
 - [x] ☁️ 64 > [Hoist: Terraform Tutorial Pt 5](Journey/064/Readme.md)
 - [x] ☁️ 65 > [Hoist: Terraform Tutorial Pt 6](Journey/065/Readme.md)
@@ -110,7 +110,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 67 > [Automating Terraform With GitHub Actions (I am a Monster)](Journey/067/Readme.md)
 - [x] ☁️ 68 > [Fightin' 🔥🔥🔥 and Wranglin' 🤠](Journey/068/Readme.md)
 - [x] ☁️ 69 > [DevOps - The Lightning Talk](Journey/069/Readme.md)
-- [ ] ☁️ 70 > [](Journey/070/Readme.md)
+- [ ] ☁️ 70 > [Kubernetes Documentation Pt 1](Journey/070/Readme.md)
 
 ## Resting at the Lagoon
 

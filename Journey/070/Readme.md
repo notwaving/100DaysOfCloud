@@ -1,41 +1,28 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Kubernetes Documentation Pt 1
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I had such good results from working through Terraform documentation before doing a beginner's course, that I'm going to do the same again with Kubernetes (k8s). I'm looking at
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- Knowing what containers do
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- As more businesses adopt containers, it is important to use an orchestration platform to scale and manage them.
+
+![use case](/Journey/070/k8s-use-case.png)
+
+- CI/CD tool
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- [Official documentation](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+- "Kubernetes" is a Greek word, meaning "helmsman" or "pilot". You're piloting a container ship...
+- Open source since 2014, created by Google
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
+![from physical servers to container deployment](Journey/070/time-travel.png)
 
 ## ☁️ Cloud Outcome
 
@@ -47,6 +34,4 @@
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1354130801265405957?s=20)
