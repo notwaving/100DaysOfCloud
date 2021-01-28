@@ -114,7 +114,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 ## Resting at the Lagoon
 
-- [ ] ☁️ 71 > [](Journey/071/Readme.md)
+- [x] ☁️ 71 > [Docker and Kubernetes - Intro](Journey/071/Readme.md)
 - [ ] ☁️ 72 > [](Journey/072/Readme.md)
 - [ ] ☁️ 73 > [](Journey/073/Readme.md)
 - [ ] ☁️ 74 > [](Journey/074/Readme.md)

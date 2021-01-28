@@ -1,52 +1,43 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Docker and Kubernetes - Intro
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I originally planned to read about components in the docs, but it was pretty verbose and I'm a hands-on learner, so I decided to do a tutorial or two, to put these concepts in context. To be honest, I think I need to know Docker better, and it just so happens that I have a highly recommended Docker and Kubernetes Udemy course gathering dust in my account.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- Comfortable on the command line
+- Some knowledge of operating systems?
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- Deepening my knowledge of Docker so I can learn K8s in context
+- Containers and orchestration
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Set up Docker for Mac (already have)
+- A container is a process (or a set of processes) that has a grouping of resources specifically assigned to it.
+  ![how containers relate to your system](/Journey/071/container1.png)
 
-## Try yourself
+![container](/Journey/071/container2.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- We've got some running process (e.g. Chrome) that sends a system call to a kernel, the kernel looks at the incoming system call and direct it to a very specific portion of the hard drive, RAM, CPU etc. A portion of each of these resources is made available to that singular process
 
-### Step 1 — Summary of Step
+- An _image_ is a file system snapshot. Also contains a startup command e.g. `run chrome`
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Docker Desktop is a Linux VM
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
+- `docker version` displays the name of this Linux VM...
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Understood containers and Docker more deeply
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Docker CLI commands
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1354905665727299585?s=20)
