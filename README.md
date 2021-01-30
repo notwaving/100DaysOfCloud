@@ -115,7 +115,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 ## Resting at the Lagoon
 
 - [x] ☁️ 71 > [Docker and Kubernetes - Intro](Journey/071/Readme.md)
-- [ ] ☁️ 72 > [](Journey/072/Readme.md)
+- [x] ☁️ 72 > [Linux Upskill Challenge Day 1 & Docker](Journey/072/Readme.md)
 - [ ] ☁️ 73 > [](Journey/073/Readme.md)
 - [ ] ☁️ 74 > [](Journey/074/Readme.md)
 - [ ] ☁️ 75 > [](Journey/075/Readme.md)
