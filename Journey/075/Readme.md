@@ -6,6 +6,8 @@ I've got free access to GCP for a month with Qwiklabs, so earning badges as and 
 
 ## Cloud Research
 
+![command-line](/Journey/075/command-line.png)
+
 - The timer is a bit offputting, to be honest.
 
 ![timer](/Journey/075/timer.png)
