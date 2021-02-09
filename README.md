@@ -119,7 +119,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 73 > [Linux Basic Navigation (LUC 2), Creating a VM in GCP](Journey/073/Readme.md)
 - [x] ☁️ 74 > [Linux Sudo (LUC 3)](Journey/074/Readme.md)
 - [x] ☁️ 75 > [Kubernetes Engine in Google Cloud Platform](Journey/075/Readme.md)
-- [ ] ☁️ 76 > [](Journey/076/Readme.md)
+- [x] ☁️ 76 > [Thoughtworks, Kief Morris, and IaC](Journey/076/Readme.md)
 - [ ] ☁️ 77 > [](Journey/077/Readme.md)
 - [ ] ☁️ 78 > [](Journey/078/Readme.md)
 - [ ] ☁️ 79 > [](Journey/079/Readme.md)
