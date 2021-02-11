@@ -1,52 +1,34 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![docker](https://i.pinimg.com/originals/8b/e3/3e/8be33e8e6a287496ac3c9b7202d0d8e2.gif)
 
-# New post title here
+# Manipulating Containers with the Docker Client
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Now that the Tech Returners course is over 😢, I've got more time to catch up on a deep dive into Docker 🎉. It's
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- Frequently used commands/concepts in Docker
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Execute a command inside a container:
+  `docker exec -it {container-id} {command}`
+- Full terminal access inside the context of the container:
+  `docker exec -it {container-id} sh`
+  You'll see a `#` as a prompt and you can type out the commands that you could expect to run in the environment
+  This last command is extremely powerful for debugging
+- Hit `ctrl` + `c` to exit (`ctrl` + `d` or `exit` work too)!
 
-## Try yourself
+#### What Just Happened?
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+`exec -it`
 
-### Step 1 — Summary of Step
+- `-i` "when we execute this new command inside the container we want to attach our terminal to the STDIN channel of that new running process". Anything you type gets directed to STDIN.
+- `-t` makes sure that the text you're entering shows up in a nicely formatted manner (put simply).
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+`sh` is the name of a programme being executed inside of the container. `sh` is a command processor (like bash, powershell, zsh etc). It allows us to type commands and have them be executed inside the container
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1359985450262409217?s=20)
