@@ -1,41 +1,44 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# 🐳 Docker/Node.js Project
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+The goal of this project is to create a tiny Node.js app, wrap it inside a Docker container, and then be able to access that web application from a browser running locally. We're not going to worry about deploying this app right now, we're just focussed on getting a Node.js app working inside of a Docker container. The tutor has placed some common gotchas in there for future reference too.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Some familiarity with Node/JavaScript. If you're not, the tutor provides code to use.
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- We're now moving onto making real world projects with Docker, and containerising a Node.js app would be a pretty common thing to do.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Create Node JS web app
+- Create Dockerfile
+- Build image from Dockerfile
+- Run image as container
+- Connect to web app from a browser
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Make new directory `simpleweb` for this project and open it up in a code editor
 
-### Step 1 — Summary of Step
+### Step 1 — Node Server Setup
 
-![Screenshot](https://via.placeholder.com/500x300)
+Create a `package.json` file like so:
 
-### Step 1 — Summary of Step
+![package.json file](/Journey/079/package-json.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+... and an `index.js` file comme ça:
+
+![index.js file](/Journey/079/index-js.png)
+
+This requires the Express library that we listed as a dependency in `package.json`. We use the Express library to create the new app (line 3). We set up a single route handler so any time someone visits the route of our app, we send back the string, "Hi there". Finally we need to set the app to listen on a port.
+
+### Step 2 — Summary of Step
 
 ### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
 
 ## ☁️ Cloud Outcome
 
@@ -47,6 +50,4 @@
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](link)

@@ -122,7 +122,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 76 > [Thoughtworks, Kief Morris, and IaC](Journey/076/Readme.md)
 - [x] ☁️ 77 > [Manipulating Containers with the Docker Client](Journey/077/Readme.md)
 - [x] ☁️ 78 > [Building Custom Images Through Docker Server](Journey/078/Readme.md)
-- [ ] ☁️ 79 > [](Journey/079/Readme.md)
+- [x] ☁️ 79 > [🐳 Docker Project/Node.js](Journey/079/Readme.md)
 - [ ] ☁️ 80 > [](Journey/080/Readme.md)
 
 ## Up into the mountains
