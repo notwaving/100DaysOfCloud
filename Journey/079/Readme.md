@@ -8,6 +8,8 @@ The goal of this project is to create a tiny Node.js app, wrap it inside a Docke
 
 Some familiarity with Node/JavaScript. If you're not, the tutor provides code to use.
 
+Basic networking
+
 ## Use Case
 
 - We're now moving onto making real world projects with Docker, and containerising a Node.js app would be a pretty common thing to do.
@@ -93,24 +95,54 @@ The container has its own isolated set of ports that _can_ receive traffic, but 
 
 ### Step 4 — Set Up Port Mapping
 
-Port Mapping states that any time anyone makes a request to a given port on your network, _take that request and automatically forward it to some port inside the container_. This is only about _incoming_ requests. Your Docker container, by default, can make requests on its own behalf to the outside world. We've already seen that in action - any time you've installed a dependency.
+Port Mapping states that any time anyone makes a request to a given port on your network, _take that request and automatically forward it to some port inside the container_. This is only about _incoming_ requests. Your Docker container, by default, can make requests on its own behalf to the outside world. We've already seen that in action - any time you've installed a dependency. This is specified at runtime, not inside the Dockerfile.
 
 **Docker run with port mapping**
 
-`docker run -p 8080:8080 {imageID}`(for the image ID, remember you created a tag)
+`docker run -p 8080:8080 {image name}`(for the image name, remember you created a tag). These ports do not need to be identical. If you're going to change the container port, remember to also change the port you're listening to (index.js in this case).
 
 ![console view](/Journey/079/port-mapping-1.png)
 
 ![localhost view](/Journey/079/port-mapping-2.png)
 
+![woo hoo!](https://i.pinimg.com/originals/00/ed/7e/00ed7ea3401fe1605ecaffeca76dc7ec.gif)
+
+### Step 5 - Specifying a Working Directory
+
+So we want to set up a shell:
+
+`docker run -it notwaving/simpleweb sh`
+
+This opens a shell inside the container as expected.
+
+If you haven't specified a WORKDIR in the Dockerfile, anything you've copied over has gone into the root directory. This is bad practice in case you get a name conflict and the default root file gets overwritten... We've already specified this directory we want to work in as an error fix for something else, so you'll see within the container's shell, we're already in
+the directory `usr/app`, and a quick `ls` will show that our files have been copied there. N.B. if the specified directory doesn't exist, Docker will create one for you.
+
+![usr/app as WORKDIR](/Journey/079/workdir.png)
+
+**If you're changing your Dockerfile remember to build (and re-tag) it again before running it.**
+
+### Unncessary Rebuilds
+
+On that last note, remember that your image is a 'snapshot' of what was in the files at the time. The container won't pick up on any changes unless you also create a new build. Every time you rebuild you'll have to pull new temp containers for each step/dependency after the update was introduced, which is pretty inefficient.
+
+### Minimizing Cache Busting and Rebuilds
+
+We're going to split up the COPY instruction into two steps, so that npm install only pulls dependencies for the package.json files. You can make as many changes to index.js as you like, and it won't invalidate the cache.
+
+![copy split](/Journey/079/copy-split.png)
+
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- Experienced the quick and dirty way to do this,
+- Learned to fix the common bugs when taking this approach
+- Took an even deeper dive into how Dockerfiles are executed
+- Learned best practices
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+A more complicated app with multiple local containers
 
 ## Social Proof
 
-[Twitter](link)
+[Twitter](https://twitter.com/_notwaving/status/1360659048580993024?s=20)
