@@ -1,4 +1,4 @@
-![placeholder image](https://en.meming.world/images/en/thumb/2/2c/Surprised_Pikachu_HD.jpg/600px-Surprised_Pikachu_HD.jpg)
+![shocked pikachu](https://en.meming.world/images/en/thumb/2/2c/Surprised_Pikachu_HD.jpg/600px-Surprised_Pikachu_HD.jpg)
 
 # Docker Compose with Multiple Local Containers
 
@@ -48,7 +48,7 @@ Status codes:
 
 In `docker-compose.yml`, underneath the service in question, add `restart: {name-of-policy}`. N.B. Notice this is done per service, i.e. you need to add a restart policy for each server.
 
-docker-compose ps
+`docker-compose ps`
 Shows status of running containers inside current working directory.
 
 ## Try yourself
@@ -83,7 +83,7 @@ You'll see this used much more frequently. We're using a separate CLI tool calle
 
 - run `docker-compose` to see a list of available commands.
 
-BRING ON THE YAML!!!
+BRING ON THE YAML
 
 ![automation](https://blog.chef.io/wp-content/uploads/2012/02/automate-all-the-things-1024x767.png)
 
@@ -147,14 +147,12 @@ Stop containers:
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Learned about Docker Compose in great detail, recovering from server crashes and restart policies.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Create a production-grade workflow.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/_notwaving/status/1361045516960870400?s=20)
