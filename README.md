@@ -127,7 +127,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 ## Up into the mountains
 
-- [ ] ☁️ 81 > [](Journey/081/Readme.md)
+- [x] ☁️ 81 > [⚛️ ❤️ 🐳 Docker - Creating a Production-Grade Workflow](Journey/081/Readme.md)
 - [ ] ☁️ 82 > [](Journey/082/Readme.md)
 - [ ] ☁️ 83 > [](Journey/083/Readme.md)
 - [ ] ☁️ 84 > [](Journey/084/Readme.md)
