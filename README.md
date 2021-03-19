@@ -129,8 +129,8 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 - [x] ☁️ 81 > [⚛️ ❤️ 🐳 Docker - Creating a Production-Grade Workflow](Journey/081/Readme.md)
 - [x] ☁️ 82 > [CI/CD with Travis CI & AWS](Journey/082/Readme.md)
-- [ ] ☁️ 83 > [GCP Qwiklabs Badges](Journey/083/Readme.md)
-- [ ] ☁️ 84 > [](Journey/084/Readme.md)
+- [x] ☁️ 83 > [GCP Qwiklabs Badges](Journey/083/Readme.md)
+- [x] ☁️ 84 > [Back with a Job and a New AWS Cert to Study For!](Journey/084/Readme.md)
 - [ ] ☁️ 85 > [](Journey/085/Readme.md)
 - [ ] ☁️ 86 > [](Journey/086/Readme.md)
 - [ ] ☁️ 87 > [](Journey/087/Readme.md)
