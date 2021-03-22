@@ -132,7 +132,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 83 > [GCP Qwiklabs Badges](Journey/083/Readme.md)
 - [x] ☁️ 84 > [Back with a Job and a New AWS Cert to Study For!](Journey/084/Readme.md)
 - [x] ☁️ 85 > [Setting up for AWS Solutions Architect Associate Course](Journey/085/Readme.md)
-- [ ] ☁️ 86 > [](Journey/086/Readme.md)
+- [x] ☁️ 86 > [AWS-SAA: Revision and Networking](Journey/086/Readme.md)
 - [ ] ☁️ 87 > [](Journey/087/Readme.md)
 - [ ] ☁️ 88 > [](Journey/088/Readme.md)
 - [ ] ☁️ 89 > [](Journey/089/Readme.md)
