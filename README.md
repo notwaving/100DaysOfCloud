@@ -134,7 +134,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 85 > [Setting up for AWS Solutions Architect Associate Course](Journey/085/Readme.md)
 - [x] ☁️ 86 > [AWS-SAA: Revision and Networking](Journey/086/Readme.md)
 - [x] ☁️ 87 > [AWS-SAA: Networking - Layers 3-5](Journey/087/Readme.md)
-- [ ] ☁️ 88 > [](Journey/088/Readme.md)
+- [x] ☁️ 88 > [Subnets and AWS Fundamentals](Journey/088/Readme.md)
 - [ ] ☁️ 89 > [](Journey/089/Readme.md)
 - [ ] ☁️ 90 > [](Journey/090/Readme.md)
 
