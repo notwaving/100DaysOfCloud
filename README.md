@@ -135,7 +135,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 86 > [AWS-SAA: Revision and Networking](Journey/086/Readme.md)
 - [x] ☁️ 87 > [AWS-SAA: Networking - Layers 3-5](Journey/087/Readme.md)
 - [x] ☁️ 88 > [Subnets and AWS Fundamentals](Journey/088/Readme.md)
-- [ ] ☁️ 89 > [](Journey/089/Readme.md)
+- [x] ☁️ 89 > [AWS-SAA EC2, S3, CloudFormation Fundamentals](Journey/089/Readme.md)
 - [ ] ☁️ 90 > [](Journey/090/Readme.md)
 
 ## Into the sky to touch the cloud!
