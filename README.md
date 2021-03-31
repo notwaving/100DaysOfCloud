@@ -140,9 +140,9 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 
 ## Into the sky to touch the cloud!
 
-- [ ] ☁️ 91 > [](Journey/091/Readme.md)
-- [ ] ☁️ 92 > [](Journey/092/Readme.md)
-- [ ] ☁️ 93 > [](Journey/093/Readme.md)
+- [x] ☁️ 91 > [AWS-SAA Finishing Off Fundamentals](Journey/091/Readme.md)
+- [x] ☁️ 92 > [AWS-SAA Deep Dive on IAM](Journey/092/Readme.md)
+- [x] ☁️ 93 > [AWS-SAA Organizations & Service Control Policies](Journey/093/Readme.md)
 - [ ] ☁️ 94 > [](Journey/094/Readme.md)
 - [ ] ☁️ 95 > [](Journey/095/Readme.md)
 - [ ] ☁️ 96 > [](Journey/096/Readme.md)
