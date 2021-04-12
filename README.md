@@ -143,7 +143,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 91 > [AWS-SAA Finishing Off Fundamentals](Journey/091/Readme.md)
 - [x] ☁️ 92 > [AWS-SAA Deep Dive on IAM](Journey/092/Readme.md)
 - [x] ☁️ 93 > [AWS-SAA Organizations & Service Control Policies](Journey/093/Readme.md)
-- [ ] ☁️ 94 > [](Journey/094/Readme.md)
+- [x] ☁️ 94 > [AWS-SAA S3 Pt 1](Journey/094/Readme.md)
 - [ ] ☁️ 95 > [](Journey/095/Readme.md)
 - [ ] ☁️ 96 > [](Journey/096/Readme.md)
 - [ ] ☁️ 97 > [](Journey/097/Readme.md)
