@@ -145,7 +145,7 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 93 > [AWS-SAA Organizations & Service Control Policies](Journey/093/Readme.md)
 - [x] ☁️ 94 > [AWS-SAA S3 Pt 1](Journey/094/Readme.md)
 - [x] ☁️ 95 > [AWS-SAA S3 Pt 2](Journey/095/Readme.md)
-- [ ] ☁️ 96 > [](Journey/096/Readme.md)
+- [x] ☁️ 96 > [AWS-SAA S3 Pt 3](Journey/096/Readme.md)
 - [ ] ☁️ 97 > [](Journey/097/Readme.md)
 - [ ] ☁️ 98 > [](Journey/098/Readme.md)
 - [ ] ☁️ 99 > [](Journey/099/Readme.md)

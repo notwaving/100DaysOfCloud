@@ -7,4 +7,4 @@
 
 ## Social Proof
 
-[Twitter](https://twitter.com/_notwaving/status/1381622632404115458?s=20)
+[Twitter](https://twitter.com/_notwaving/status/1392958473965539335?s=20)
