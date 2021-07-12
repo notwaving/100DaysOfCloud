@@ -148,5 +148,5 @@ At the end of the challenge I'd like to be AWS Certified, and to have built some
 - [x] ☁️ 96 > [AWS-SAA S3 Pt 3](Journey/096/Readme.md)
 - [x] ☁️ 97 > [IaC & Networking](Journey/097/Readme.md)
 - [x] ☁️ 98 > [VPC practical - manual setup - for AWS-SAA](Journey/098/Readme.md)
-- [ ] ☁️ 99 > [](Journey/099/Readme.md)
+- [x] ☁️ 99 > [Finishing VPC Basics](Journey/099/Readme.md)
 - [ ] ☁️ 100 > [](Journey/100/Readme.md)
